@@ -1,0 +1,22 @@
+{
+  "name": "imdad-whatsapp-ai-agent",
+  "version": "0.1.0",
+  "description": "WhatsApp Cloud API AI agent powered by the OpenAI Responses API.",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "keywords": [
+    "whatsapp",
+    "ai-agent",
+    "openai",
+    "meta-cloud-api"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
